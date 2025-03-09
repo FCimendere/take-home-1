@@ -134,7 +134,9 @@ When a booking is approved, the system sends an email notification to the contac
 - **Docker** for DB and App.
 - **PATCH** | `/bookings/:id` | Update current booking's event time, contact details.
 - **Automatic DENIED mechanism** – When one of the **PENDING** bookings is **APPROVED**, others will be **DENIED**.
-- **DB Migration** can be added.
+- **DB Migration** 
+- **Error Handling**
+- **Logging** 
 
 ## Author
 
